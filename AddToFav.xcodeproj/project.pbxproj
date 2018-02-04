@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5EAAB82026926500ECDB40 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5EAAB72026926500ECDB40 /* DetailViewController.swift */; };
 		8B7A713F2024CA120086A6B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A713E2024CA120086A6B6 /* AppDelegate.swift */; };
-		8B7A71412024CA120086A6B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A71402024CA120086A6B6 /* ViewController.swift */; };
+		8B7A71412024CA120086A6B6 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A71402024CA120086A6B6 /* WordsTableViewController.swift */; };
 		8B7A71442024CA120086A6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7A71422024CA120086A6B6 /* Main.storyboard */; };
 		8B7A71462024CA120086A6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7A71452024CA120086A6B6 /* Assets.xcassets */; };
 		8B7A71492024CA120086A6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7A71472024CA120086A6B6 /* LaunchScreen.storyboard */; };
+		8B7A71512024CA7F0086A6B6 /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7A71502024CA7F0086A6B6 /* FavouritesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B7A713B2024CA120086A6B6 /* AddToFavouritesBarButtonItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddToFavouritesBarButtonItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5EAAB72026926500ECDB40 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8B7A713B2024CA120086A6B6 /* AddToFav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddToFav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7A713E2024CA120086A6B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B7A71402024CA120086A6B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B7A71402024CA120086A6B6 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		8B7A71432024CA120086A6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B7A71452024CA120086A6B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B7A71482024CA120086A6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B7A714A2024CA120086A6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7A71502024CA7F0086A6B6 /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		8B7A71322024CA120086A6B6 = {
 			isa = PBXGroup;
 			children = (
-				8B7A713D2024CA120086A6B6 /* AddToFavouritesBarButtonItem */,
+				8B7A713D2024CA120086A6B6 /* AddToFav */,
 				8B7A713C2024CA120086A6B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +50,32 @@
 		8B7A713C2024CA120086A6B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B7A713B2024CA120086A6B6 /* AddToFavouritesBarButtonItem.app */,
+				8B7A713B2024CA120086A6B6 /* AddToFav.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B7A713D2024CA120086A6B6 /* AddToFavouritesBarButtonItem */ = {
+		8B7A713D2024CA120086A6B6 /* AddToFav */ = {
 			isa = PBXGroup;
 			children = (
 				8B7A713E2024CA120086A6B6 /* AppDelegate.swift */,
-				8B7A71402024CA120086A6B6 /* ViewController.swift */,
+				8B7A71402024CA120086A6B6 /* WordsTableViewController.swift */,
+				8B5EAAB72026926500ECDB40 /* DetailViewController.swift */,
+				8B7A71502024CA7F0086A6B6 /* FavouritesTableViewController.swift */,
 				8B7A71422024CA120086A6B6 /* Main.storyboard */,
 				8B7A71452024CA120086A6B6 /* Assets.xcassets */,
 				8B7A71472024CA120086A6B6 /* LaunchScreen.storyboard */,
 				8B7A714A2024CA120086A6B6 /* Info.plist */,
 			);
-			path = AddToFavouritesBarButtonItem;
+			path = AddToFav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B7A713A2024CA120086A6B6 /* AddToFavouritesBarButtonItem */ = {
+		8B7A713A2024CA120086A6B6 /* AddToFav */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B7A714D2024CA120086A6B6 /* Build configuration list for PBXNativeTarget "AddToFavouritesBarButtonItem" */;
+			buildConfigurationList = 8B7A714D2024CA120086A6B6 /* Build configuration list for PBXNativeTarget "AddToFav" */;
 			buildPhases = (
 				8B7A71372024CA120086A6B6 /* Sources */,
 				8B7A71382024CA120086A6B6 /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = AddToFavouritesBarButtonItem;
+			name = AddToFav;
 			productName = AddToFavouritesBarButtonItem;
-			productReference = 8B7A713B2024CA120086A6B6 /* AddToFavouritesBarButtonItem.app */;
+			productReference = 8B7A713B2024CA120086A6B6 /* AddToFav.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8B7A71362024CA120086A6B6 /* Build configuration list for PBXProject "AddToFavouritesBarButtonItem" */;
+			buildConfigurationList = 8B7A71362024CA120086A6B6 /* Build configuration list for PBXProject "AddToFav" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B7A713A2024CA120086A6B6 /* AddToFavouritesBarButtonItem */,
+				8B7A713A2024CA120086A6B6 /* AddToFav */,
 			);
 		};
 /* End PBXProject section */
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B7A71412024CA120086A6B6 /* ViewController.swift in Sources */,
+				8B7A71412024CA120086A6B6 /* WordsTableViewController.swift in Sources */,
 				8B7A713F2024CA120086A6B6 /* AppDelegate.swift in Sources */,
+				8B7A71512024CA7F0086A6B6 /* FavouritesTableViewController.swift in Sources */,
+				8B5EAAB82026926500ECDB40 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B7A71362024CA120086A6B6 /* Build configuration list for PBXProject "AddToFavouritesBarButtonItem" */ = {
+		8B7A71362024CA120086A6B6 /* Build configuration list for PBXProject "AddToFav" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B7A714B2024CA120086A6B6 /* Debug */,
@@ -312,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B7A714D2024CA120086A6B6 /* Build configuration list for PBXNativeTarget "AddToFavouritesBarButtonItem" */ = {
+		8B7A714D2024CA120086A6B6 /* Build configuration list for PBXNativeTarget "AddToFav" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B7A714E2024CA120086A6B6 /* Debug */,
