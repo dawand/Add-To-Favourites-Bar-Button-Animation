@@ -19,7 +19,7 @@
         <!--AddToFav Demo-->
         <scene sceneID="wTi-uq-bjQ">
             <objects>
-                <tableViewController id="3ZM-Cd-boA" customClass="WordsViewController" customModule="AddToFavouritesBarButtonItem" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="3ZM-Cd-boA" customClass="WordsViewController" customModule="AddToFav" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QLv-60-ccK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,7 +73,7 @@
         <!--Detail View Controller-->
         <scene sceneID="RfT-ZE-bjw">
             <objects>
-                <viewController id="m9W-gi-lVX" customClass="DetailViewController" customModule="AddToFavouritesBarButtonItem" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m9W-gi-lVX" customClass="DetailViewController" customModule="AddToFav" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ygI-pL-94C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -109,7 +109,7 @@
         <!--Favourites-->
         <scene sceneID="dPG-BY-LgN">
             <objects>
-                <tableViewController title="Favourites" id="YXp-ds-QhS" customClass="FavouritesTableViewController" customModule="AddToFavouritesBarButtonItem" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Favourites" id="YXp-ds-QhS" customClass="FavouritesTableViewController" customModule="AddToFav" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6AS-RV-KMu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
